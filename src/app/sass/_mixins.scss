@@ -1,0 +1,44 @@
+/* fonts */
+$bold: 'Santral-Bold', sans-serif;
+$light: 'Santral-Light', sans-serif;
+$medium: 'Santral-Medium', sans-serif;
+$semiBold: 'Santral-SemiBold', sans-serif;
+
+/* colors */
+$purple: #5F638A;
+$white: #fff;
+$red: #c00031;
+$verifiedTextColor: #42D8A9;
+$vipBg: #F8E5E5;
+$vipTextColor: #CC8686;
+$newBg: #F7EFD1;
+$newTextColor: #B3A56E;
+$gecersizColor: #5F72F8;
+$textColor: #6D6F82;
+/* mixins */
+@mixin radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin animates($ms) {
+    -webkit-transition: $ms all;
+    -moz-transition: $ms all;
+    -ms-transition: $ms all;
+    -o-transition: $ms all;
+    transition: $ms all;
+}
+@mixin placeholder($color) {
+    &::-webkit-input-placeholder {
+        color: $color;
+    }
+    &:-moz-placeholder {
+        color: $color;
+    }
+    &:-ms-input-placeholder {
+        color: $color;
+    }
+    &::-moz-placeholder {
+        color: $color;
+    }
+}
