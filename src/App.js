@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <div className="profile--image">
           <div className="center">
-            <a href="https://www.dontsafe.com/"><img src="/public/images/logo.jpeg" alt=""/></a>
+            <a href="https://www.dontsafe.com/"><img src="public/images/logo.jpeg" alt=""/></a>
           </div>
         </div>
         <div className="profile--text">
