@@ -8,12 +8,12 @@ class App extends Component {
       <div className="App">
         <div className="profile--image">
           <div className="center">
-            <a href="https://www.dontsafe.com/"><img src="public/images/logo.jpeg" alt=""/></a>
+            <a href="https://www.dontsafe.com/"><img src="https://avatars2.githubusercontent.com/u/17205974?s=460&v=4" alt=""/></a>
           </div>
         </div>
         <div className="profile--text">
           <div className="center">
-            <p>Full Stack Developer at <a href="https://www.mysilo.com/">Mysilo</a>, Ads Manager | Bug Researcher | Founder <a className="logo--color" href="https://www.gecerrsiztik.com/">Gecersiztik.com</a> </p>
+            <p>Full Stack Developer at <a href="https://www.mysilo.com/">Mysilo</a>, Ads Manager | Bug Researcher | Founder <a className="logo--color" href="https://www.gecersiztik.com/">Gecersiztik.com</a>, <a className="logo--color" href="https://www.villagetir.com/">Villagetir.com</a>  </p>
           </div>
         </div>
         <div className="profile--information">
